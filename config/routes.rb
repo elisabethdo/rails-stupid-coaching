@@ -10,5 +10,5 @@ Rails.application.routes.draw do
   # root "posts#index"
   get "/ask", to: "questions#ask"
   get "/answer", to: "questions#answer"
-  get '/new', to: "questions#ask", as: 'ask'
+  get '/new', to: "questions#ask", as: 'new_question'
 end
