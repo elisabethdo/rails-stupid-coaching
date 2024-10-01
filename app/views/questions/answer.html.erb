@@ -1,0 +1,25 @@
+
+
+ <div class="container mt-5">
+    <!-- Title -->
+    <h1 class="display-4">Stupid Coaching</h1>
+
+    <!-- Question Section -->
+    <div class="mt-4">
+      <blockquote class="blockquote">
+        <p class = "h4 quote"><%= @question %></p>
+        <footer class="blockquote-footer">You</footer>
+      </blockquote>
+    </div>
+
+    <!-- Answer Section -->
+    <div class="response">
+      <p class="h4"><%= @answer %></p>
+      <footer class="blockquote-footer">Your coach</footer>
+    </div>
+
+    <!-- Footer Link -->
+    <div class="mt-4">
+      <%= link_to 'Ask a new question', ask_path %>
+    </div>
+  </div>

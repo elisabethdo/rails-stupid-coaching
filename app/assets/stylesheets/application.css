@@ -13,3 +13,30 @@
  *= require_tree .
  *= require_self
  */
+/* Styling for the user's question */
+.quote {
+  font-style: italic;
+}
+
+/* Styling for the coach's response */
+.response {
+  background-color: #fff3cd; /* Light yellow background */
+  border-left: 5px solid grey;
+  padding: 20px;
+}
+
+.blockquote {
+  border-left: 5px solid grey;
+  padding: 20px;
+}
+
+/* Custom Styling for the Blockquote Footer */
+.blockquote-footer {
+  font-size: 1rem;       /* Smaller font size */
+  color: #6c757d;        /* Muted gray color */
+  margin-top: 20px;      /* Small space above the footer text */
+}
+.feedback-section .blockquote-footer {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
